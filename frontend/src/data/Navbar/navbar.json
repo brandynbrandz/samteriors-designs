@@ -4,18 +4,7 @@
     "title": "Home",
     "link": "/",
     "megaMenu": false,
-    "subMenu": [
-      {
-        "id": 1.1,
-        "title": "Home 01",
-        "link": "/home-one"
-      },
-      {
-        "id": 1.2,
-        "title": "Home 02",
-        "link": "/home-two"
-      }
-    ]
+    "subMenu": false
   },
   {
     "id": 2,
@@ -29,7 +18,19 @@
     "title": "Services",
     "link": "/services",
     "megaMenu": false,
-    "subMenu": false
+
+    "subMenu": [
+      {
+        "id": 1.1,
+        "title": "Services",
+        "link": "/services"
+      },
+      {
+        "id": 1.2,
+        "title": "Consultation",
+        "link": "/consultation"
+      }
+    ]
   },
   {
     "id": 4,
@@ -41,16 +42,16 @@
   {
     "id": 5,
     "title": "Blog",
-    "link": "/blog-grid-right-sidebar",
+    "link": "/blog",
     "megaMenu": false,
     "subMenu": [
       {
-        "title": "Blog Grid Left Sidebar",
-        "link": "/blog-grid-left-sidebar"
+        "title": "Blog Trending",
+        "link": "/blog/trending"
       },
       {
-        "title": "Blog Grid Right Sidebar",
-        "link": "/blog-grid-right-sidebar"
+        "title": "Blog Random",
+        "link": "/blog/wild-life-workshop?id=14"
       }
     ]
   },
