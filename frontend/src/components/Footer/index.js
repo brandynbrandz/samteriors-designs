@@ -22,8 +22,8 @@ const index = () => {
                   <Text>Your complete Interior design solutions.</Text>
 
                   <Text classes="copyright-txt">
-                    &copy; {new Date().getFullYear()} Brandz-Interior Ltd. All
-                    Rights Reserved.
+                    &copy; 2014 - {new Date().getFullYear()} Brandz-Interior
+                    Ltd. All Rights Reserved.
                   </Text>
                 </div>
               </div>
@@ -98,7 +98,7 @@ const index = () => {
                 <address>
                   2005 Stokes Isle Apartment. 896, Washington 10010, USA <br />
                   https://example.com <br />
-                  (+68) 120034509
+                  (+254) 710100100
                 </address>
               </Widget>
             </div>
