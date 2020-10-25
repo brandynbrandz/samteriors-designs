@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "counterNumber": 1500,
+    "counterText": "Happy Clients"
+  },
+  {
+    "id": 2,
+    "counterNumber": 500,
+    "counterText": "Project Done"
+  },
+  {
+    "id": 3,
+    "counterNumber": 30,
+    "counterText": "Awards Win"
+  },
+  {
+    "id": 4,
+    "counterNumber": 4300,
+    "counterText": "Consultations"
+  }
+]

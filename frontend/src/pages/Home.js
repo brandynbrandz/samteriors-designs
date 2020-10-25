@@ -4,13 +4,15 @@ import LoginRegister from "../components/LoginRegister";
 import MobileMenu from "../components/MobileMenu";
 import Footer from "../components/Footer";
 import CallToAction from "../components/CallToAction";
+import Funfact from "../components/Funfact";
 
 const Home = () => {
   return (
     <>
       <Header />
-      <MobileMenu />
+      <Funfact />
       <CallToAction />
+      <MobileMenu />
       <LoginRegister />
       <Footer />
     </>
