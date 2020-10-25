@@ -1,14 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
 import logo from "../../assets/img/logo.svg";
 
-const logo = () => {
-  return (
-    <div className="logo-area">
-      <a href="/">
-        <img src={logo} alt="Brandz-interior-Logo" />
-      </a>
-    </div>
-  );
-};
+class Logo extends Component {
+  render() {
+    return (
+      <div className="logo-area">
+        <a href="/">
+          <img src={logo} alt="brandz-interior-Logo" />
+        </a>
+      </div>
+    );
+  }
+}
 
-export default logo;
+export default Logo;

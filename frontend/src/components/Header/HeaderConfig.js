@@ -1,6 +1,6 @@
 import React from "react";
 
-const HeaderConfig = () => {
+function HeaderConfig(props) {
   const LoginRegHandler = () => {
     const offCanvasConfig = document.querySelector(".off-canvas-cog");
     offCanvasConfig.classList.add("active");
@@ -11,10 +11,11 @@ const HeaderConfig = () => {
     const offCanvasMenu = document.querySelector(".off-canvas-menu");
     offCanvasMenu.classList.add("active");
   };
+
   return (
-    <div>
+    <div className="header-action mt-lg-3 text-right">
       <a href="tel:00199823568658" className="tel-no">
-        +254 700 100100
+        +998 23568 658
       </a>
       <button onClick={LoginRegHandler} className="btn-cog">
         <i className="fa fa-cog" />
@@ -24,6 +25,6 @@ const HeaderConfig = () => {
       </button>
     </div>
   );
-};
+}
 
 export default HeaderConfig;
