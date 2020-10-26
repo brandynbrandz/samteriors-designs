@@ -27,7 +27,6 @@
   z-index: 1;
 }
 
-
 .service-item {
   margin-top: 30px;
   transition: 0.4s;
@@ -73,7 +72,7 @@
       font-weight: 500;
       margin-bottom: 18px;
 
-      a{
+      a {
         color: $white;
       }
     }
@@ -82,14 +81,15 @@
   &:hover {
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.26);
 
-    .service-content{
+    .service-content {
       left: 0;
     }
   }
 }
 
-.non-opacity{
-  &:after,&:before{
+.non-opacity {
+  &:after,
+  &:before {
     display: none;
   }
 }
