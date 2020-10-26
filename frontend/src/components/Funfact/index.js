@@ -1,14 +1,17 @@
 import React from "react";
 import FunfactItem from "./funfactItem";
 
-import funfactbg from "../../assets/img/fun-fact-bg.jpg";
 import Funfacts from "../../data/Funfact/funfact";
 
 function Funfact() {
   return (
     <div
       className="fun-fact-area sm-top parallax"
-      style={{ backgroundImage: `url(${funfactbg})` }}
+      style={{
+        backgroundImage: `url(${
+          process.env.PUBLIC_URL + "/assets/icons/cancel.png"
+        })`,
+      }}
     >
       <div className="container">
         <div className="row mtn-40">

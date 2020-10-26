@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import serviceImg from "../../assets/img/service/01.jpg";
 
 function ServiceItem(props) {
   const serviceURL = `/service/${props.title
@@ -12,11 +11,11 @@ function ServiceItem(props) {
       <div className="service-item">
         <figure className="service-thumb">
           <Link to={`${process.env.PUBLIC_URL + serviceURL}`}>
-            {/* <img
-              src={require("../../assets/img/" + props.thumb)}
+            <img
+              src={process.env.PUBLIC_URL + ("/assets/img/" + props.thumb)}
               alt={props.title}
-            /> */}
-            <img src={serviceImg} alt={props.title} />
+            />
+            {/* <img src={serviceImg} alt={props.title} /> */}
           </Link>
 
           <figcaption className="service-txt">

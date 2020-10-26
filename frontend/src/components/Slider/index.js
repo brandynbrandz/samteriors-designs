@@ -2,7 +2,6 @@ import React from "react";
 import SlickSlider from "../UI/Slick";
 import SliderData from "../../data/Slider/home";
 import { Link } from "react-router-dom";
-import sliderImg from "../../assets/img//slider/02.jpg";
 
 const NextArrow = ({ className, onClick }) => {
   return (
@@ -44,13 +43,14 @@ const Slider = () => {
           <div key={item.id}>
             <div
               className="slider-item"
-              //   style={{
-              //     backgroundImage: `url(${require("../../assets/img/" +
-              //       item.bg)})`,
-              //   }}
               style={{
-                backgroundImage: `url(${sliderImg})`,
+                backgroundImage: `url(${
+                  process.env.PUBLIC_URL + ("/assets/img/" + item.bg)
+                })`,
               }}
+              // style={{
+              //   backgroundImage: `url(${sliderImg})`,
+              // }}
             >
               <div className="container">
                 <div className="row">

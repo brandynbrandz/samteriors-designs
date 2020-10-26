@@ -1,5 +1,4 @@
 import React from "react";
-import closeIcon from "../../../assets/icons/cancel.png";
 
 const OffCanvas = ({ type, children }) => {
   const LoginRegClose = () => {
@@ -26,7 +25,10 @@ const OffCanvas = ({ type, children }) => {
             onClick={type === "cog" ? LoginRegClose : MobileMenuClose}
             className="btn-close"
           >
-            <img src={closeIcon} alt="Close" />
+            <img
+              src={process.env.PUBLIC_URL + "/assets/icons/cancel.png"}
+              alt="Close"
+            />
           </button>
         </div>
 

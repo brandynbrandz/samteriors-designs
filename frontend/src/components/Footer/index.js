@@ -4,7 +4,6 @@ import Widget from "../UI/Widget";
 import List from "../UI/List";
 import LI from "../UI/List/Item";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/img/logo-dark.svg";
 
 const index = () => {
   return (
@@ -16,7 +15,11 @@ const index = () => {
               <div className="widget-item">
                 <div className="about-widget">
                   <Link to={`${process.env.PUBLIC_URL + "/"}`}>
-                    <img src={Logo} alt="Logo" />
+                    <img
+                      src={process.env.PUBLIC_URL + "/assets/img/logo-dark.svg"}
+                      alt="Logo"
+                    />
+                    {/* <img src={Logo} alt="Logo" /> */}
                   </Link>
 
                   <Text>Your complete Interior design solutions.</Text>

@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import error from "../assets/img/404.png";
 
 const Error404 = () => {
   return (
     <div style={styles}>
       <div>
-        <img src={error} alt="404" />
+        <img src={process.env.PUBLIC_URL + "/assets/img/404.png"} alt="404" />
         <Link
           to="/"
           className={"btn-brand"}

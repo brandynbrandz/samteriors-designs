@@ -3,7 +3,6 @@ import parse from "html-react-parser";
 import Thumbnail from "../../UI/Thumbnail";
 import Content from "../../UI/Content";
 import { Link } from "react-router-dom";
-import aboutImg from "../../../assets/img/about.jpg";
 
 import aboutData from "../../../data/About/home";
 
@@ -14,8 +13,7 @@ const About = () => (
         <div className="col-md-6 col-lg-5">
           <Thumbnail
             classes="about-thumb"
-            // imgSrc={require("../../../assets/img" + aboutData.thumb)}
-            imgSrc={aboutImg}
+            imgSrc={process.env.PUBLIC_URL + ("/assets/img" + aboutData.thumb)}
           />
         </div>
 
