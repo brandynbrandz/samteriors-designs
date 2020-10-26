@@ -1,6 +1,6 @@
 import React from "react";
 import SlickSlider from "../UI/Slick";
-import SliderData from "../../data/Slider/home";
+import SliderData from "../../data/Slider/slider";
 import { Link } from "react-router-dom";
 
 const NextArrow = ({ className, onClick }) => {
@@ -48,9 +48,6 @@ const Slider = () => {
                   process.env.PUBLIC_URL + ("/assets/img/" + item.bg)
                 })`,
               }}
-              // style={{
-              //   backgroundImage: `url(${sliderImg})`,
-              // }}
             >
               <div className="container">
                 <div className="row">

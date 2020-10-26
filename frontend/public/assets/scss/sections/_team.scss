@@ -54,11 +54,11 @@
         left: -80px;
       }
 
-      &:after{
-        background-image: url('../../img/team/team-arrow.png');
+      &:after {
+        // background-image: url("../../img/team/team-arrow.png");
         background-repeat: no-repeat;
         background-position: center center;
-        content: '';
+        content: "";
         position: absolute;
         transform: translateY(-10px);
         transition: 0.4s;
@@ -80,12 +80,12 @@
       }
     }
 
-    &:hover{
-      .member-info{
+    &:hover {
+      .member-info {
         @include show;
         transform: none;
 
-        &:after{
+        &:after {
           transform: none;
         }
       }
@@ -106,7 +106,7 @@
     }
 
     .slick-dots {
-      display: flex!important;
+      display: flex !important;
       justify-content: center;
     }
 
@@ -127,8 +127,8 @@
   }
 }
 
-.team-area{
-  &-left{
+.team-area {
+  &-left {
     background-color: $brandColor;
     padding: 110px 100px 105px;
     height: 100%;
@@ -142,7 +142,7 @@
     }
 
     @media #{$sm-device} {
-      padding: 60px 30px  50px;
+      padding: 60px 30px 50px;
     }
 
     @media #{$xs-device} {
@@ -150,7 +150,7 @@
     }
   }
 
-  &-right{
+  &-right {
     position: relative;
     padding: 110px 100px 0;
 
@@ -162,22 +162,21 @@
       padding: 50px 30px 0;
     }
 
-    &--2{
-      &:before{
+    &--2 {
+      &:before {
         @include overlay($white, 0.85);
       }
     }
   }
 }
 
-
 // Team Page
-.team-page-area-wrapper{
-  .team-mem-item{
+.team-page-area-wrapper {
+  .team-mem-item {
     margin-top: 30px;
     transition: 0.4s;
 
-    &:hover{
+    &:hover {
       transform: translateY(-10px);
     }
   }

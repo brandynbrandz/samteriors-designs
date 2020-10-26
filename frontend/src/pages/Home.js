@@ -10,6 +10,7 @@ import CallToAction from "../components/CallToAction";
 import Funfact from "../components/Funfact";
 import BrandLogo from "../components/BrandLogo";
 import Services from "../components/Services";
+import Team from "../components/Team";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <About />
       <Features classes="sp-top" />
       <Services classes="sm-top-wt" />
+      <Team />
       <BrandLogo />
       <Funfact />
       <CallToAction />
