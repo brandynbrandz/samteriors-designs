@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import Slider from "../components/Slider";
 import About from "../components/About/home";
 import Features from "../components/Features";
+import Blog from "../components/Blog";
 import CallToAction from "../components/CallToAction";
 import Funfact from "../components/Funfact";
 import Testimonials from "../components/Testimonials";
@@ -21,14 +22,15 @@ const Home = () => {
       <About />
       <Features classes="sp-top" />
       <Services classes="sm-top-wt" />
-      <Team />
       <Testimonials />
+      <Team />
+      <Blog />
       <BrandLogo />
       <Funfact />
       <CallToAction />
+      <Footer />
       <MobileMenu />
       <LoginRegister />
-      <Footer />
     </>
   );
 };
