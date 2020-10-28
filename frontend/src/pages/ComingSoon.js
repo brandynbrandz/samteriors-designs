@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import { ReactSVG } from "react-svg";
+import socialNetworks from "../data/SocialNetworks/socials";
 import Countdown from "react-countdown";
 import Renderer from "../components/Countdown/Renderer";
 import SubscribeEmail from "../components/Newsletter/SubscribeEmail";
@@ -25,7 +25,7 @@ const ComingSoon = () => {
         </style>
       </Helmet>
       <div
-        className="cs-07-page-wrapper h-100 bg-img d-flex flex-column justify-content-between"
+        className="cs-07-page-wrapper  bg-img d-flex flex-column justify-content-between"
         style={{
           backgroundImage: `url(${
             process.env.PUBLIC_URL + "/assets/img/backgrounds/coming-soon.jpg"
@@ -103,74 +103,16 @@ const ComingSoon = () => {
                 {/* social icons */}
                 <ul className="cs-07-social-icons d-flex align-items-center justify-content-center justify-content-md-end">
                   <li>
-                    <a
-                      href="http://www.facebook.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <ReactSVG
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/img/icons/facebook-01.svg"
-                        }
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="http://www.twitter.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <ReactSVG
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/img/icons/twitter-01.svg"
-                        }
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="http://www.instagram.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <ReactSVG
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/img/icons/instagram-01.svg"
-                        }
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="http://www.linkedin.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <ReactSVG
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/img/icons/linkedin-02.svg"
-                        }
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="http://www.youtube.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <ReactSVG
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/img/icons/youtube-01.svg"
-                        }
-                      />
-                    </a>
+                    {socialNetworks.map((social) => (
+                      <a
+                        key={social.id}
+                        href={`https://${social.networkName}.com/${social.username}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className={`fa fa-${social.networkName}`} />
+                      </a>
+                    ))}
                   </li>
                 </ul>
               </div>

@@ -226,7 +226,8 @@
       margin-right: 0;
     }
     & > a {
-      svg {
+      margin-right: 10px;
+      i {
         * {
           transition: $transition--default;
 
