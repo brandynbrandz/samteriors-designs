@@ -80,8 +80,10 @@ a {
   }
 }
 
-textarea, input {
-  &:focus, &:active {
+textarea,
+input {
+  &:focus,
+  &:active {
     outline: none;
   }
 }
@@ -104,35 +106,66 @@ h6,
   line-height: 1.2;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   @include font-size(40px);
   font-weight: 700;
   margin-bottom: 25px;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   @include font-size(36px);
   font-weight: 600;
   margin-top: -5px;
   margin-bottom: 18px;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   @include font-size(30px);
   margin-bottom: 10px;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   @include font-size(24px);
 }
 
-h5, .h5 {
+h5,
+.h5 {
   @include font-size(20px);
 }
 
-h6, .h6 {
+h6,
+.h6 {
   @include font-size(16px);
 }
+
+//coming soon page
+html,
+body,
+#root,
+.site-wrapper {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+a,
+button {
+  line-height: inherit;
+
+  display: inline-block;
+
+  cursor: pointer;
+  transition: $transition--default;
+  text-decoration: none;
+
+  color: inherit;
+}
+//end comin soon page
 
 /* Paragraph Margin */
 p {
@@ -152,7 +185,8 @@ ul {
   }
 }
 
-strong, b {
+strong,
+b {
   font-weight: 700;
 }
 
@@ -173,13 +207,15 @@ button {
   box-shadow: none;
   transition: 0.4s;
 
-  &:active, &:focus {
+  &:active,
+  &:focus {
     outline: none;
     box-shadow: none;
   }
 }
 
-[data-mfp-src], .btn-img-popup {
+[data-mfp-src],
+.btn-img-popup {
   cursor: zoom-in;
 }
 

@@ -3,6 +3,7 @@ $baseFont: "Montserrat", sans-serif;
 $baseFontSize: 15px;
 $mdi-icon: "Material Design Icons";
 $fa-icon: "FontAwesome";
+$poppins: "Poppins", sans-serif;
 
 //== Site Typography Colors
 $paragraph: #151515;
@@ -10,6 +11,9 @@ $headingColor: #151515;
 $ashColor: #aaaaaa;
 $borderColor: #eee;
 $hvrColor: #182141;
+
+//== Site Trandition
+$transition--default: all 0.3s;
 
 //== Site Brand Color
 $brandColor: #080b1a;

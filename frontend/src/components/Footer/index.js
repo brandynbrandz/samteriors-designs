@@ -99,8 +99,8 @@ const index = () => {
             <div className="col-md-4 col-lg-3">
               <Widget title="Contact Us">
                 <address>
-                  2005 Stokes Isle Apartment. 896, Washington 10010, USA <br />
-                  https://example.com <br />
+                  Komarock Mall. 10, Nairobi 00100, Kenya <br />
+                  https://brandynodoyo.com <br />
                   (+254) 710100100
                 </address>
               </Widget>

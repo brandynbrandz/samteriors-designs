@@ -6,6 +6,8 @@ import Services from "./pages/Services";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import Error404 from "./pages/Error404";
+import ComingSoon from "./pages/ComingSoon";
+import UnderMaintenance from "./pages/UnderMaintenance";
 
 function App() {
   return (
@@ -36,6 +38,16 @@ function App() {
             exact
             path={`${process.env.PUBLIC_URL + "/contact"}`}
             component={Contact}
+          />
+          <Route
+            exact
+            path={`${process.env.PUBLIC_URL + "/consultation"}`}
+            component={ComingSoon}
+          />
+          <Route
+            exact
+            path={`${process.env.PUBLIC_URL + "/blog/trending"}`}
+            component={UnderMaintenance}
           />
           <Route component={Error404} />
         </Switch>
