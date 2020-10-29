@@ -18,6 +18,9 @@
 @import "components/off-canvas";
 @import "components/form";
 
+// pages
+@import "pages/contact";
+
 // Sections
 @import "sections/slider";
 @import "sections/funfact";
@@ -25,6 +28,7 @@
 @import "sections/blog";
 @import "sections/team";
 @import "sections/service";
+@import "sections/pricing";
 @import "sections/page-header";
 @import "sections/testimonial";
 @import "sections/coming-soon";

@@ -18,20 +18,20 @@ import Features from "../components/Features";
 
 // import ServiceThumb from "../../public/assets/img/about.jpg";
 
-const PageAbout = () => {
+const AboutPage = () => {
   return (
     <>
       <Header />
       <PageHeader
         bgImg={process.env.PUBLIC_URL + "/assets/img/page-header.jpg"}
         title="ABOUT US"
-        content="Businex always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
+        content="Brandz-Interior always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
       />
       <About
         title={"Our Team"}
         heading="Meet Our <br/> Expert Member"
         thumb={process.env.PUBLIC_URL + "/assets/img/about.jpg"}
-        content="<b>Businex</b> always try to provide the best Business Solutions for Clinets to grow up their Business very sharply and smoothly. We voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+        content="<b>Brandz-Interior</b> always try to provide the best Business Solutions for Clinets to grow up their Business very sharply and smoothly. We voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
       />
       <Services />
       <Features classes={"sm-top"} />
@@ -47,4 +47,4 @@ const PageAbout = () => {
   );
 };
 
-export default PageAbout;
+export default AboutPage;

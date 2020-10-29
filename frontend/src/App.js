@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import PageAbout from "./pages/About";
-import Services from "./pages/Services";
+import AboutPage from "./pages/About";
+import ServicesPage from "./pages/Services";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import Error404 from "./pages/Error404";
@@ -22,12 +22,12 @@ function App() {
           <Route
             exact
             path={`${process.env.PUBLIC_URL + "/about"}`}
-            component={PageAbout}
+            component={AboutPage}
           />
           <Route
             exact
             path={`${process.env.PUBLIC_URL + "/services"}`}
-            component={Services}
+            component={ServicesPage}
           />
           <Route
             exact
