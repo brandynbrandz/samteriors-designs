@@ -13,7 +13,7 @@ import CallToAction from "../components/CallToAction";
 import Funfact from "../components/Funfact";
 import Footer from "../components/Footer";
 
-const ServicesPage = () => {
+const ServicePage = () => {
   return (
     <>
       <Header />
@@ -41,4 +41,4 @@ const ServicesPage = () => {
   );
 };
 
-export default ServicesPage;
+export default ServicePage;
