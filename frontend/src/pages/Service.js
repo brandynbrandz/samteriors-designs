@@ -20,13 +20,13 @@ const ServicePage = () => {
       <PageHeader
         bgImg={process.env.PUBLIC_URL + "../assets/img/page-header.jpg"}
         title="OUR SERVICES"
-        content="Businex always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
+        content="Brandz-Interior always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
       />
       <PageAbout
         title={"Our Services"}
         heading="Provide best <br/> Business Solutions"
         thumb={process.env.PUBLIC_URL + "/assets/img/about.jpg"}
-        content="<b>Businex</b> always try to provide the best Business Solutions for Clinets to grow up their Business very sharply and smoothly. We voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+        content="<b>Brandz-Interior</b> always try to provide the best Business Solutions for Clinets to grow up their Business very sharply and smoothly. We voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
       />
       <Services classes="sm-top" />
       <PricingTable />

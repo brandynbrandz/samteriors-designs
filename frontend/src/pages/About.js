@@ -9,9 +9,7 @@ import BrandLogo from "../components/BrandLogo";
 import Team from "../components/Team";
 import Testimonials from "../components/Testimonials";
 import About from "../components/About/home";
-
 import Services from "../components/Services";
-
 import Funfact from "../components/Funfact";
 import Footer from "../components/Footer";
 import Features from "../components/Features";
