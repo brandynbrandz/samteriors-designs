@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutPage from "./pages/About";
+import BlogHomePage from "./pages/BlogSidebar";
+import BlogPage from "./pages/BlogDetails";
 import ServicesPage from "./pages/Service";
 import ServiceDetailsPage from "./pages/ServiceDetails";
 import Team from "./pages/Team";
@@ -53,13 +55,23 @@ function App() {
           />
           <Route
             exact
-            path={`${process.env.PUBLIC_URL + "/consultation"}`}
-            component={ComingSoon}
+            path={`${process.env.PUBLIC_URL + "/blog"}`}
+            component={BlogHomePage}
           />
           <Route
             exact
             path={`${process.env.PUBLIC_URL + "/blog/trending"}`}
             component={UnderMaintenance}
+          />
+          <Route
+            exact
+            path={`${process.env.PUBLIC_URL + "/blog/:blogID"}`}
+            component={BlogPage}
+          />
+          <Route
+            exact
+            path={`${process.env.PUBLIC_URL + "/consultation"}`}
+            component={ComingSoon}
           />
           <Route component={Error404} />
         </Switch>
