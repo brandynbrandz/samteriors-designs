@@ -5,7 +5,7 @@ import List from "../../components/UI/List";
 import LI from "../../components/UI/List/Item";
 import Anchor from "../../components/UI/Anchor";
 import FeaturedBlog from "../../components/FeaturedBlog";
-import Newsletter from "../../components/Newsletter";
+import SubscribeNewsletter from "../../components/Newsletter";
 
 import Blogs from "../../data/Blog/blog";
 import Categories from "../../data/Sidebar/sidebar";
@@ -44,7 +44,7 @@ const SidebarForBlog = ({ classes }) => {
       </SidebarItem>
 
       <SidebarItem classes={"single-sidebar-item-wrap"}>
-        <Newsletter />
+        <SubscribeNewsletter mailchimpUrl="https://gmail.us2.list-manage.com/subscribe/post?u=696736434709b1f7c18a2765b&amp;id=c5f58b02d8" />
       </SidebarItem>
 
       <SidebarItem classes={"single-sidebar-item-wrap"}>
