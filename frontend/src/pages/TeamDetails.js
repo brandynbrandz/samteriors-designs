@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import LoginRegister from "../components/LoginRegister";
+import TeamDetails from "../templates/TeamDetails";
 import MobileMenu from "../components/MobileMenu";
 import BrandLogo from "../components/BrandLogo";
 import CallToAction from "../components/CallToAction";
@@ -11,6 +12,7 @@ const TeamDetailsPage = () => {
   return (
     <>
       <Header />
+      <TeamDetails />
       <BrandLogo />
       <Funfact />
       <CallToAction />
