@@ -16,7 +16,7 @@ const UnderMaintenance = () => {
         />
       </Helmet>
       <div
-        className="cs-17-page-wrapper  bg-img d-flex flex-column justify-content-between"
+        className="cs-17-page-wrapper h-100 bg-img d-flex flex-column justify-content-between"
         style={{
           backgroundImage: `url(${
             process.env.PUBLIC_URL +

@@ -25,7 +25,7 @@ const ComingSoon = () => {
         </style>
       </Helmet>
       <div
-        className="cs-07-page-wrapper  bg-img d-flex flex-column justify-content-between"
+        className="cs-07-page-wrapper h-100 bg-img d-flex flex-column justify-content-between"
         style={{
           backgroundImage: `url(${
             process.env.PUBLIC_URL + "/assets/img/backgrounds/coming-soon.jpg"
