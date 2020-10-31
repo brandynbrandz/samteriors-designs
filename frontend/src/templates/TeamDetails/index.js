@@ -18,6 +18,7 @@ const TeamDetails = () => {
         bgImg={process.env.PUBLIC_URL + "/assets/img/page-header.jpg"}
         title={teamMember.name}
         content={teamMember.designation}
+        headRoute={`TEAM  /  ${teamMember.name}`}
       />
 
       <PageWrapper classes={"member-details-wrapper sm-top"}>

@@ -32,6 +32,7 @@ const ServiceDetails = () => {
         bgImg={process.env.PUBLIC_URL + "/assets/img/page-header.jpg"}
         title={service.title}
         content={service.shortDesc}
+        headRoute={`SERVICE / ${service.title}`}
       />
 
       <PageWrapper classes="sm-top service-details-wrapper">

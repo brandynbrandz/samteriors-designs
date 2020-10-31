@@ -18,6 +18,7 @@ const Team = () => {
         bgImg={process.env.PUBLIC_URL + "../assets/img/page-header.jpg"}
         title="KNOW ABOUT BRANDZ-INTERIOR THE ULTIMATE TEAM"
         content="Brandz-Interior always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
+        headRoute="TEAM"
       />
       <About
         title={"Our Team"}

@@ -21,6 +21,7 @@ const ServicePage = () => {
         bgImg={process.env.PUBLIC_URL + "../assets/img/page-header.jpg"}
         title="OUR SERVICES"
         content="Brandz-Interior always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
+        headRoute="SERVICES"
       />
       <PageAbout
         title={"Our Services"}

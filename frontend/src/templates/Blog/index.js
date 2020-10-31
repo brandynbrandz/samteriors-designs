@@ -13,6 +13,7 @@ const Blog = ({ sidebar_position, blog_type, sidebar }) => {
         content={
           "Brandz-Interior always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
         }
+        headRoute="BLOG"
       />
 
       <PageWrapper classes={"blog-page-content-area sp-y"}>
