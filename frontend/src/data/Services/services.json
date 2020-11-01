@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "title": "Creative Ideas",
+    "title": "Consultation",
     "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
-    "thumb": "service/01.jpg",
+    "thumb": "service/services-img1.jpg",
     "previewImages": [
+      "service/details/03.jpg",
       "service/details/01.jpg",
-      "service/details/02.jpg",
-      "service/details/03.jpg"
+      "service/details/02.jpg"
     ],
     "aboutServiceDesc": "<p>Voluptatum delenitied atqued corrupti is eseted quased stias cepturi sint aete non provident, csimilique sunt dunt labore ete dolored magnam aliquam quaerat Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidun</p>   <p>Corrupti deleniti atque magnam is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat Neque porro quisquam est dolorem</p>",
     "features": [
@@ -17,9 +17,9 @@
   },
   {
     "id": 2,
-    "title": "Digital Solutions",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
-    "thumb": "service/02.jpg",
+    "title": "Interior",
+    "shortDesc": "Keep away from people who try to belittle your ambitions Small people always do that but the really great. Friendly neighbour there that power. Architecture Theme Keep away from people who try to belittle your ambitions Small people always do that but the really great. who try to belittle your ambitions Small people always do that but the really great. ",
+    "thumb": "service/services-img2.jpg",
     "previewImages": [
       "service/details/01.jpg",
       "service/details/02.jpg",
@@ -33,9 +33,9 @@
   },
   {
     "id": 3,
-    "title": "Brand & Communication",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
-    "thumb": "service/03.jpg",
+    "title": "Concept",
+    "shortDesc": "Concept away from people who try to belittle your ambitions Small people always do that but the really great. Friendly neighbour there that power. Architecture Theme Keep away from people who try to belittle your ambitions Small people always do that but the really great. who try to belittle your ambitions Small people always do that but the really great. Architecture Theme Friendly neighbour there that power.",
+    "thumb": "service/services-img3.jpg",
     "previewImages": [
       "service/details/01.jpg",
       "service/details/02.jpg",
@@ -49,9 +49,9 @@
   },
   {
     "id": 4,
-    "title": "Creative Strategy",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
-    "thumb": "service/04.jpg",
+    "title": "Collaborate",
+    "shortDesc": "We are best in town belittle your ambitions Small people always do that but the really great. Friendly neighbour there that power.  who try to belittle your ambitions Small people always do that but the really great. Architecture Theme Friendly neighbour there that power.",
+    "thumb": "service/services-img4.jpg",
     "previewImages": [
       "service/details/01.jpg",
       "service/details/02.jpg",
@@ -65,9 +65,9 @@
   },
   {
     "id": 5,
-    "title": "Marketing Policy",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
-    "thumb": "service/05.jpg",
+    "title": "Construction",
+    "shortDesc": "Belittle your ambitions Small people always do that but the really great. Friendly neighbour there that power. Architecture Theme Keep away from people who try to belittle your ambitions Small people always do that but the really great.   who try to belittle your ambitions Small people always do that but the really great. Architecture Theme Friendly neighbour there that power.",
+    "thumb": "service/services-img5.jpg",
     "previewImages": [
       "service/details/01.jpg",
       "service/details/02.jpg",
@@ -81,13 +81,13 @@
   },
   {
     "id": 6,
-    "title": "Campaign & PR",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
-    "thumb": "service/06.jpg",
+    "title": "Completion",
+    "shortDesc": "Keep away from people who try to belittle your ambitions Small people always do that but the really great. Friendly neighbour there that power. Architecture Theme Keep away from people who try to belittle your ambitions Small people always do that but the really great.    who try to belittle your ambitions Small people always do that but the really great. Architecture Theme Friendly neighbour there that power.",
+    "thumb": "service/services-img6.jpg",
     "previewImages": [
-      "service/details/03.jpg",
       "service/details/01.jpg",
-      "service/details/02.jpg"
+      "service/details/02.jpg",
+      "service/details/03.jpg"
     ],
     "aboutServiceDesc": "<p>Voluptatum delenitied atqued corrupti is eseted quased stias cepturi sint aete non provident, csimilique sunt dunt labore ete dolored magnam aliquam quaerat Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidun</p>   <p>Corrupti deleniti atque magnam is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat Neque porro quisquam est dolorem</p>",
     "features": [

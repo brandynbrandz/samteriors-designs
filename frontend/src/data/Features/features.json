@@ -2,24 +2,24 @@
   {
     "id": 1,
     "title": "Creative Team",
-    "text": "We have creative team, they always ready to help you.",
+    "text": "We have creative team, they always deliver the best Designs.",
     "imgSrc": "feature/01.png"
   },
   {
     "id": 2,
-    "title": "Best Service",
+    "title": "Modern Design",
     "text": "We have creative team, they always ready to help you.",
     "imgSrc": "feature/02.png"
   },
   {
     "id": 3,
-    "title": "Online Support",
+    "title": "Reliable Team",
     "text": "We have creative team, they always ready to help you.",
     "imgSrc": "feature/03.png"
   },
   {
     "id": 4,
-    "title": "Consultations",
+    "title": "24/7 Consultations",
     "text": "We have creative team, they always ready to help you.",
     "imgSrc": "feature/03.png"
   }

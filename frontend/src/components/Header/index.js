@@ -15,7 +15,7 @@ class Header extends Component {
   isSticky = (e) => {
     const header = document.querySelector("header");
     const scrollTop = window.scrollY;
-    scrollTop >= 250
+    scrollTop >= 400
       ? header.classList.add("sticky")
       : header.classList.remove("sticky");
   };
@@ -29,7 +29,7 @@ class Header extends Component {
               <Logo />
             </div>
 
-            <div className="col-lg-7 d-none d-lg-block">
+            <div className="col-lg-7.5 d-none d-lg-block">
               <div className="navigation-area mt-lg-3">
                 <Navbar />
               </div>

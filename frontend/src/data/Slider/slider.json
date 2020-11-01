@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Design your Reality With Us",
     "text": "Brandz-Interior always try to provide the best Interior Design Solutions for Clients to grow up their Interior Design very sharply and smoothly.",
-    "bg": "slider/01.jpg",
+    "bg": "slider/home-slider-1.jpg",
     "btnText": "Learn More",
     "btnLink": "/about"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Trust in us & Get the best Interior Designs",
     "text": "Brandz-Interior always try to provide the best Interior Design Solutions for Clients to grow up their Business very sharply and smoothly.",
-    "bg": "slider/02.jpg",
+    "bg": "slider/home-slider-2.jpg",
     "btnText": "Learn More",
     "btnLink": "/about"
   }

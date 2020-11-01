@@ -36,7 +36,7 @@
       // Menu Item Arrows
       &:after {
         color: $white;
-        content: '\f107';
+        content: "\f107";
         font-size: 16px;
         line-height: 1;
         font-family: $fa-icon;
@@ -68,7 +68,7 @@
         }
 
         &:before {
-          content: '';
+          content: "";
           position: absolute;
           height: 40px;
           width: 100%;
@@ -161,9 +161,9 @@
   display: block !important;
   padding: 20px 30px;
 
-  .mobile-nav{
+  .mobile-nav {
     li {
-      border-bottom: 1px solid rgba(255, 255, 255, .2);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
       position: relative;
       list-style: none;
 
@@ -190,14 +190,13 @@
       }
 
       ul {
-        border-top: 1px solid rgba(255, 255, 255, .2);
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
         margin: 0;
         padding-left: 10px;
 
         li {
-
-          &.mega-menu-item{
-            & > a{
+          &.mega-menu-item {
+            & > a {
               font-weight: 600;
             }
           }

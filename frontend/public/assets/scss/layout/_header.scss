@@ -3,20 +3,22 @@
 ===========================*/
 
 .header-area {
-  background-color: $brandColor;
-  padding: 30px 0;
-  transition: 0.4s;
+  position: fixed;
+  z-index: 1000;
+  padding: 20px 0;
+  transition: 0.2s;
+  background-color: rgba($color: #6850448e, $alpha: 0.6);
+  width: 100vw;
 
   &.sticky {
     animation: slideInDown 0.6s forwards;
     padding: 5px 0 15px;
     position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
+    background-color: $brandColor;
+
     z-index: 99;
 
-    @media #{$sm-device, $md-device} {
+    @media #{$sm-device, $lg-device} {
       padding: 20px 0;
     }
 

@@ -3,6 +3,12 @@
 =============================*/
 
 .page-header-area {
+  position: relative;
+  z-index: 1;
+  &:after {
+    @include overlay($black, 0.5);
+    z-index: -1;
+  }
   .page-header-content-inner {
     height: 460px;
     display: flex;
