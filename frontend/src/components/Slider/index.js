@@ -23,6 +23,8 @@ const Slider = () => {
   const settings = {
     arrows: true,
     dots: false,
+    initialSlide: 0,
+    speed: 500,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     responsive: [
@@ -69,6 +71,11 @@ const Slider = () => {
           </div>
         ))}
       </SlickSlider>
+      <div className="icon-scroll-wraper">
+        <div className="icon-scroll">
+          <div className="icon-scroll-screen"></div>
+        </div>
+      </div>
     </div>
   );
 };

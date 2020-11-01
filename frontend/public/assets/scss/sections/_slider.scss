@@ -126,4 +126,60 @@
       color: $white;
     }
   }
+  /* icon scroll */
+  .icon-scroll-wraper {
+    position: absolute;
+    width: 100%;
+    bottom: 5vh;
+    left: 0;
+  }
+  .icon-scroll {
+    position: relative;
+    margin: 0 auto;
+  }
+  .icon-scroll:before {
+    position: absolute;
+  }
+  .icon-scroll {
+    width: 26px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.548);
+    z-index: 1;
+    border-radius: 25px;
+    height: 38px;
+  }
+  .icon-scroll:before {
+    content: "";
+    width: 3px;
+    height: 6px;
+    background: rgba(0, 0, 0, 0.699);
+    left: 12px;
+    top: 8px;
+    border-radius: 4px;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+  }
+  @-webkit-keyframes scroll {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px);
+    }
+  }
+  @keyframes scroll {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px);
+    }
+  }
 }
