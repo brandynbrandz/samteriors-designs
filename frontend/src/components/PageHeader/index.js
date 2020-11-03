@@ -19,7 +19,7 @@ const PageHeader = ({ bgImg, title, content, headRoute }) => {
                     className="breadcrumb-item"
                     to={process.env.PUBLIC_URL + "/"}
                   >
-                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <i className="fa fa-home" aria-hidden="true"></i>
                     Home
                   </Link>
                   <span className="brd-separetor">/</span>

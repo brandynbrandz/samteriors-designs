@@ -13,6 +13,7 @@
 // Layout Index
 @import "layout/header";
 @import "layout/footer";
+@import "layout/loader";
 
 // components
 @import "components/off-canvas";
@@ -20,7 +21,9 @@
 @import "components/icon-box";
 @import "components/skill-bar";
 @import "components/timeline";
+@import "components/portfolio";
 @import "components/accordion";
+@import "components/scroll-to-top";
 
 // pages
 @import "pages/contact";
