@@ -4,15 +4,15 @@ import React, { useState, useEffect } from "react";
 import PortfolioItem from "./PortfolioItem";
 import SectionTitle from "../../UI/SectionTitle";
 
-import PortfolioData from "../../data/Portfolio/portfolio";
+import PortfolioData from "../../../data/Portfolio/portfolio";
 import THEME from "./theme";
 import styles from "./Portfolio2.module.scss";
 import { SpringGrid, enterExitStyle } from "react-stonecutter";
-import useCurrentWidth from "../../../helpers/useCurrentWidth";
+import useCurrentWidth from "./helpers/useCurrentWidth";
 import useHover from "./helpers/useHover";
 // import FadeIn from "react-fade-in";
 
-import { Container, Row, Col } from "reactstrap";
+// import { Container, Row, Col } from "reactstrap";
 // import { Link } from "react-router-dom";
 
 function Port() {

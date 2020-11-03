@@ -4,7 +4,7 @@ import LoginRegister from "../components/LoginRegister";
 import MobileMenu from "../components/MobileMenu";
 import Slider from "../components/Slider";
 import About from "../components/About/home";
-import Portfolio from "../components/Portfolio";
+// import Portfolio from "../components/Portfolio/future-portfolio";
 import Features from "../components/Features";
 import Blog from "../components/Blog";
 import CallToAction from "../components/CallToAction";
@@ -23,7 +23,7 @@ const Home = () => {
       <About />
       <Features classes="sp-top" />
       <Services classes="sm-top-wt" />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Testimonials />
       <Team />
       <Blog />
