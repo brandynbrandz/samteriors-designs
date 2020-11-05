@@ -9,8 +9,9 @@ function Funfact() {
       className="fun-fact-area sm-top parallax"
       style={{
         backgroundImage: `url(${
-          process.env.PUBLIC_URL + "/assets/icons/cancel.png"
+          process.env.PUBLIC_URL + "/assets/img/backgrounds/kitchen.jpg"
         })`,
+        backgroundAttachment: "fixed",
       }}
     >
       <div className="container">

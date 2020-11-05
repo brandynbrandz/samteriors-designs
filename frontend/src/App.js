@@ -16,7 +16,7 @@ import ComingSoon from "./pages/ComingSoon";
 import UnderMaintenance from "./pages/UnderMaintenance";
 import ScrollToTop from "./helpers/ScrollToTop";
 import Preloader from "./helpers/Preloader";
-// import ScrollToTopBtn from "./components/ScrollToTopBtn";
+import ScrollToTopBtn from "./components/ScrollToTopBtn";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -93,7 +93,7 @@ function App() {
                 <Route component={Error404} />
               </Switch>
             </ScrollToTop>
-            {/* <ScrollToTopBtn /> */}
+            <ScrollToTopBtn />
           </>
         )}
       </Router>

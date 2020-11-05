@@ -1,17 +1,19 @@
 /*============================
 5. Brand Logo Style CSS
 =============================*/
-.brand-logo-item{
-  img{
+.brand-logo-item {
+  display: flex;
+  justify-content: center;
+  img {
     margin: auto;
   }
 }
 
-.brand-logo-content{
-  .slick-list{
+.brand-logo-content {
+  .slick-list {
     margin: 0 -10px;
 
-    .slick-slide{
+    .slick-slide {
       padding: 0 10px;
     }
   }
