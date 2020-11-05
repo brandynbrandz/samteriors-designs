@@ -53,7 +53,15 @@
     }
   }
 }
-
+#success,
+#failed {
+  &.show {
+    display: block !important;
+  }
+  &.hide {
+    display: none;
+  }
+}
 .contact-method {
   h3 {
     font-weight: 600;

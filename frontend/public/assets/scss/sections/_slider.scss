@@ -129,10 +129,13 @@
   }
   /* icon scroll */
   .icon-scroll-wraper {
+    display: flex;
     position: absolute;
     width: 100%;
     bottom: 5vh;
     left: 0;
+    flex-direction: column;
+    align-items: center;
   }
   .icon-scroll {
     position: relative;

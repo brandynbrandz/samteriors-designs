@@ -75,6 +75,7 @@ const Slider = () => {
         <div className="icon-scroll">
           <div className="icon-scroll-screen"></div>
         </div>
+        <p>Scroll down</p>
       </div>
     </div>
   );

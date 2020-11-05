@@ -1,27 +1,32 @@
 [
   {
     "id": 1,
-    "logoSrc": "brand-logo/01.png",
+    "logoSrc": "brand-logo/furniture1.png",
     "URL": "/"
   },
   {
     "id": 2,
-    "logoSrc": "brand-logo/02.png",
+    "logoSrc": "brand-logo/apple.png",
     "URL": "/"
   },
   {
     "id": 3,
-    "logoSrc": "brand-logo/03.png",
+    "logoSrc": "brand-logo/amazon.png",
     "URL": "/"
   },
   {
     "id": 4,
-    "logoSrc": "brand-logo/04.png",
+    "logoSrc": "brand-logo/house1.png",
     "URL": "/"
   },
   {
     "id": 5,
-    "logoSrc": "brand-logo/05.png",
+    "logoSrc": "brand-logo/ikea.png",
+    "URL": "/"
+  },
+  {
+    "id": 6,
+    "logoSrc": "brand-logo/bed.png",
     "URL": "/"
   }
 ]

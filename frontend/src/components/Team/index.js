@@ -39,7 +39,7 @@ function Team() {
       className="team-area-wrapper bg-img sp-y"
       style={{
         backgroundImage: `url(${
-          process.env.PUBLIC_URL + "/assets/img/team/team-bg.jpg"
+          process.env.PUBLIC_URL + "/assets/img/team/teamwork-bg.jpg"
         })`,
       }}
     >
