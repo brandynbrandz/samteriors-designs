@@ -65,8 +65,7 @@ const LoginRegister = () => {
         <div className="copyright-content">
           <p>
             {" "}
-            © Brandz-Interior 2014 - {new Date().getFullYear()} All Right
-            Reserved.
+            © Samterior 2014 - {new Date().getFullYear()} All Right Reserved.
           </p>
         </div>
       </div>

@@ -25,8 +25,8 @@ const index = () => {
                   <Text>Your complete Interior design solutions.</Text>
 
                   <Text classes="copyright-txt">
-                    &copy; 2014 - {new Date().getFullYear()} Brandz-Interior
-                    Ltd. All Rights Reserved.
+                    &copy; 2014 - {new Date().getFullYear()} Samterior Ltd. All
+                    Rights Reserved.
                   </Text>
                 </div>
               </div>

@@ -7,7 +7,7 @@ function LogoItem(props) {
       {/* <Link to={`${process.env.PUBLIC_URL + props.URL}`}> */}
       <img
         src={process.env.PUBLIC_URL + "/assets/img/" + props.logoSrc}
-        alt="Brandz-interior-Logo"
+        alt="Samterior-Logo"
       />
       {/* </Link> */}
     </div>

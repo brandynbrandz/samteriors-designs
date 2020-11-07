@@ -38,7 +38,7 @@ const UnderMaintenance = () => {
                     <img
                       src={process.env.PUBLIC_URL + "/assets/img/logo-dark.svg"}
                       className="img-fluid"
-                      alt="Brandz-Interior"
+                      alt="Samterior"
                     />
                   </Link>
                 </div>
@@ -98,7 +98,7 @@ const UnderMaintenance = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Brandz
+                    Samterior
                   </a>
                   , all rights reserved
                 </div>

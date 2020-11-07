@@ -48,12 +48,12 @@ function Member(props) {
           </figure>
           <div className="member-info">
             <h5>
-              <Link
+              {/* <Link
                 to={`${process.env.PUBLIC_URL + teamMemberURl}`}
                 className="stretched-link"
-              >
-                {props.name}
-              </Link>
+              > */}
+              {props.name}
+              {/* </Link> */}
             </h5>
             <span className="designation">{props.designation}</span>
           </div>

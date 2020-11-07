@@ -8,7 +8,7 @@ class Logo extends Component {
         <Link to={`${process.env.PUBLIC_URL + "/"}`}>
           <img
             src={process.env.PUBLIC_URL + "/assets/img/logo.svg"}
-            alt="brandz-interior-Logo"
+            alt="Samterior-Logo"
           />
         </Link>
       </div>

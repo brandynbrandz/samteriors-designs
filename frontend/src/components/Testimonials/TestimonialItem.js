@@ -7,14 +7,14 @@ function TestimonialItem(props) {
       <div className="testimonial-thumb">
         <img
           src={process.env.PUBLIC_URL + ("/assets/img/" + props.authorThumb)}
-          alt="Brandz-Interior"
+          alt="Samterior"
         />
       </div>
 
       <div className="testimonial-txt">
         <img
           src={process.env.PUBLIC_URL + "/assets/icons/quote.png"}
-          alt="Brandz-Interior"
+          alt="Samterior"
         />
         <p>{props.quote}</p>
         <h5 className="client-name">{props.author}</h5>
