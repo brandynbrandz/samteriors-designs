@@ -1,41 +1,45 @@
 [
   {
     "id": 1,
-    "planName": "Free",
-    "currencyType": "$",
-    "planPrice": "00",
+    "planName": "Samcho Lite",
+    "ajdective": "from",
+    "currencyType": "Ksh",
+    "planPrice": "50000",
     "subscribePlan": "mo",
     "planFeatures": [
-      "Branding strategy identity",
-      "Marketing campaign & PR",
-      "Website and app designing",
-      "Content development"
+      "Consulation",
+      "Design development",
+      "Brand integration in design"
     ]
   },
   {
     "id": 2,
-    "planName": "Small Business",
-    "currencyType": "$",
-    "planPrice": "49",
+    "planName": "Samcho",
+    "ajdective": "from",
+    "currencyType": "Ksh",
+    "planPrice": "100,000",
     "subscribePlan": "mo",
     "planFeatures": [
-      "Content development",
-      "Branding strategy identity",
-      "Marketing campaign & PR",
-      "Website and app designing"
+      "Consulation",
+      "Design development",
+      "Brand integration in design",
+      "Continuous improvement design",
+      "Procurement of all approved purchases"
     ]
   },
   {
     "id": 3,
-    "planName": "Professional",
-    "currencyType": "$",
-    "planPrice": "99",
+    "planName": "Samcho Plus",
+    "planPrice": "Quotation",
     "subscribePlan": "mo",
     "planFeatures": [
-      "Website and app designing",
-      "Content development",
-      "Branding strategy identity",
-      "Marketing campaign & PR"
+      "Consulation",
+      "Design development",
+      "Brand integration in design",
+      "Continuous improvement design",
+      "24/7 support",
+      "Delivery and Installation of all products and materials",
+      "On and off site Project Management"
     ]
   }
 ]
