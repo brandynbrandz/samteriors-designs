@@ -23,14 +23,14 @@ const AboutPage = () => {
       <PageHeader
         bgImg={process.env.PUBLIC_URL + "/assets/img/page-header.jpg"}
         title="ABOUT US"
-        content="Samterior always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
+        content="Samteriors always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
         headRoute="ABOUT"
       />
       <About
         title={"Our Team"}
         heading="Meet Our <br/> Expert Member"
         thumb={process.env.PUBLIC_URL + "/assets/img/about.jpg"}
-        content="<b>Samterior</b> always try to provide the best Business Solutions for Clinets to grow up their Business very sharply and smoothly. We voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+        content="<b>Samteriors</b> always try to provide the best Business Solutions for Clinets to grow up their Business very sharply and smoothly. We voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
       />
       <Services />
       <Features classes={"sm-top"} />

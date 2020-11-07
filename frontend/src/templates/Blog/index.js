@@ -9,9 +9,9 @@ const Blog = ({ sidebar_position, blog_type, sidebar }) => {
     <>
       <PageHeader
         bgImg={process.env.PUBLIC_URL + "/assets/img/page-header.jpg"}
-        title={"From Samterior Latest"}
+        title={"From Samteriors Latest"}
         content={
-          "Samterior always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
+          "Samteriors always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
         }
         headRoute="BLOG"
       />

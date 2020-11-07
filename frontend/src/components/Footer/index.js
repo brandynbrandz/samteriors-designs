@@ -25,7 +25,7 @@ const index = () => {
                   <Text>Your complete Interior design solutions.</Text>
 
                   <Text classes="copyright-txt">
-                    &copy; 2014 - {new Date().getFullYear()} Samterior Ltd. All
+                    &copy; 2014 - {new Date().getFullYear()} Samteriors Ltd. All
                     Rights Reserved.
                   </Text>
                 </div>

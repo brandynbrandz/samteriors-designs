@@ -7,7 +7,7 @@ function FeatureItem(props) {
         <div className="icon-box__icon">
           <img
             src={process.env.PUBLIC_URL + ("/assets/img/" + props.img)}
-            alt="Samterior-Feature"
+            alt="Samteriors-Feature"
           />
         </div>
         <div className="icon-box__info">

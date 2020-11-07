@@ -43,7 +43,7 @@ const ComingSoon = () => {
                     <img
                       src={process.env.PUBLIC_URL + "/assets/img/logo-dark.svg"}
                       className="img-fluid"
-                      alt="Samterior"
+                      alt="Samteriors"
                     />
                   </Link>
                 </div>
@@ -94,7 +94,7 @@ const ComingSoon = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Samterior
+                    Samteriors
                   </a>
                   , all rights reserved
                 </div>

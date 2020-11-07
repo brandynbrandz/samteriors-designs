@@ -50,7 +50,7 @@ function Team() {
               variant="light"
               title="Creative Team"
               heading="We have great <br />creative team"
-              text="<strong>Samterior</strong> always try to provide the best Business Solutions for Clients to grow up their
+              text="<strong>Samteriors</strong> always try to provide the best Business Solutions for Clients to grow up their
                                       Business sharp and smoothly. We voluptatem voluptas aspernatur aut odit fugit, quia consequuur magni dolores eos qui ratione."
             />
           </div>
