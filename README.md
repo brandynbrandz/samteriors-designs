@@ -1,4 +1,4 @@
-# [Live Website](https://samteriors.netlify.app)
+# Click to view [Live Website](https://samteriors.netlify.app)
 
 # Getting Started with Create React App
 
