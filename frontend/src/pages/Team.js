@@ -6,6 +6,7 @@ import TeamMember from "../templates/Team";
 import BrandLogo from "../components/BrandLogo";
 import LoginRegister from "../components/LoginRegister";
 import MobileMenu from "../components/MobileMenu";
+
 import CallToAction from "../components/CallToAction";
 import Funfact from "../components/Funfact";
 import Footer from "../components/Footer";

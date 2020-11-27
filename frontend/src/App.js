@@ -12,6 +12,7 @@ import Team from "./pages/Team";
 import TeamDetailsPage from "./pages/TeamDetails";
 import Contact from "./pages/Contact";
 import Error404 from "./pages/Error404";
+import Gallery from "./pages/Gallery";
 import ComingSoon from "./pages/ComingSoon";
 import UnderMaintenance from "./pages/UnderMaintenance";
 import ScrollToTop from "./helpers/ScrollToTop";
@@ -64,6 +65,11 @@ function App() {
                   exact
                   path={`${process.env.PUBLIC_URL + "/team-member/:teamID"}`}
                   component={TeamDetailsPage}
+                />
+                <Route
+                  exact
+                  path={`${process.env.PUBLIC_URL + "/gallery"}`}
+                  component={Gallery}
                 />
                 <Route
                   exact

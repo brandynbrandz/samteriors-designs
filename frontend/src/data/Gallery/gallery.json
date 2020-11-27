@@ -1,0 +1,30 @@
+[
+  {
+    "src": "assets/img/gallery/windows/1.jpg",
+    "alt": "High Windows",
+    "caption": "High Window cleaning",
+    "width": 532,
+    "height": 500
+  },
+  {
+    "src": "assets/img/gallery/windows/2.jpg",
+    "alt": "Building Cleaning",
+    "caption": "Outer wall cleaning",
+    "width": 532,
+    "height": 709
+  },
+  {
+    "src": "assets/img/gallery/windows/3.jpg",
+    "alt": "Building Cleaning",
+    "caption": "Outdoor Windows",
+    "width": 532,
+    "height": 517
+  },
+  {
+    "src": "assets/img/gallery/windows/4.jpg",
+    "alt": "Building Cleaning",
+    "caption": "High Window cleaning",
+    "width": 532,
+    "height": 725
+  }
+]
