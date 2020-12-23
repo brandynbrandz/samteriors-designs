@@ -11,8 +11,8 @@ const From = () => {
 
     emailjs
       .sendForm(
-        "service_j2gsouq",
-        "template_wjh5xlk",
+        "service_zil2ocb",
+        "template_z38n4r8",
         e.target,
         "user_G5VZzfTLd1y4BuSa461mf"
       )
@@ -20,7 +20,7 @@ const From = () => {
         (result) => {
           console.log(result.text);
           success.classList.add("show");
-          //   button.classList.add("show");
+          // button.classList.add("show");
           failed.classList.remove("show");
         },
         (error) => {
@@ -79,7 +79,12 @@ const From = () => {
               placeholder={"Write Your Message *"}
             />
 
-            <FormInput tag={"button"} type={"submit"} classes={"btn-outline"} />
+            <FormInput
+              tag={"button"}
+              id={"buttonsent"}
+              type={"submit"}
+              classes={"btn-outline"}
+            />
 
             <div className="form-message">
               <div id="success" className="hide">
